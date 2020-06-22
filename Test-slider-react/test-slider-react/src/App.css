@@ -1,0 +1,120 @@
+.slider-container {
+    width: 380px;
+    height:210px;
+    margin: 0 auto;
+    border: 2px solid grey;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+}
+
+.slider div {
+    width: 380px;
+    height: 210px;
+    flex-shrink: 0;
+    flex-basis: 100%;
+}
+
+i {
+    position: absolute;
+    border-radius: 100%;
+    color: grey;
+    font-size: 30px;
+}
+
+#nextBtn {
+    top: 45%;
+    right: 5px;
+}
+
+#prevBtn {
+    top: 45%;
+    left: 5px;
+}
+
+.wrapper {
+    width: 660px;
+    position: relative;
+    margin: 0 auto;
+    text-align:center;
+}
+
+button {
+    margin-right:5px;
+    margin-left:5px;
+    margin-top: 5px;
+}
+
+.pic1 {
+    background-image: url("https://github.com/LailaL88/test-task/blob/master/pic1.jpg?raw=true");
+    background-size: 100%;
+}
+
+.pic2 {
+    background-image: url("https://github.com/LailaL88/test-task/blob/master/pic2%20.jpg?raw=true");
+    background-size: 100%;
+}
+
+.pic3 {
+    background-image: url("https://github.com/LailaL88/test-task/blob/master/pic3.jpg?raw=true");
+    background-size: 100%;
+}
+
+.pic4 {
+    background-image: url("https://github.com/LailaL88/test-task/blob/master/pic4.jpg?raw=true");
+    background-size: 100%;
+}
+
+.pic5 {
+    background-image: url("https://github.com/LailaL88/test-task/blob/master/pic5.jpg?raw=true");
+    background-size: 100%;
+}
+
+.pic6 {
+    background-image: url("https://github.com/LailaL88/test-task/blob/master/pic6.jpg?raw=true");
+    background-size: 100%;
+}
+
+.pic7 {
+    background-image: url("https://github.com/LailaL88/test-task/blob/master/pic7.jpg?raw=true");
+    background-size: 100%;
+}
+
+.slider{
+    transform:translateX(-380px);
+}
+
+@media only screen and (max-width:686px) {
+    .wrapper {
+        width: 100%;
+    }
+    .slider-container {
+        width: 240px;
+        height: 140px;
+ 
+    }
+
+    .slider {
+        transform:translateX(-240px);
+    }
+
+    #nextBtn {
+        top:35%;
+    }
+
+    #prevBtn{
+        top:35%;
+    }
+}
+
+@media only screen and (min-width:686px){
+    #nextBtn{
+        right: 50px;
+    }
+    #prevBtn{
+        left: 50px;
+    }
+}
