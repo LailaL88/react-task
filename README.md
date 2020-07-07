@@ -44,7 +44,9 @@ Remove the img tags and put the desired content into div.slider li
 ```
 If you wat to put the content as first or last slider item, make sure that ```<li  ref={this.lastImg}>``` content repeats the last item content and ```<li ref={this.firstImg}>``` repeats the first item content.
 
-If you have more than 7 items add ```<button onClick = {this.GoToSlide(1)}></button>``` tags with numbers of your items into ```<nav>
+If you have more than 7 items add ```<button onClick = {this.GoToSlide(1)}></button>``` tags with numbers of your items into 
+```     
+        <nav>
         <button onClick = {this.GoToSlide(1)}></button>
         <button onClick = {this.GoToSlide(2)}></button>
         <button onClick = {this.GoToSlide(3)}></button>
