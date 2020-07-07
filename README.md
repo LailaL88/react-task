@@ -57,3 +57,4 @@ If you have more than 7 items add ```<button onClick = {this.GoToSlide(1)}></but
         </nav>
 ```
 to add buttons that navigate to each slide.
+Add "picX" items to ```this.images = [this.lastImg, "pic1", "pic2", "pic3", "pic4", "pic5", "pic6", "pic7",  this.firstImg];``` array so that all slider items are in the array.
