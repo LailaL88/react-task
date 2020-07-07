@@ -42,5 +42,5 @@ Put the desired content into div.slider li
                 </li>
             </div>
 ```
-If you wat to put the content as first or last slider item, make sure that <li  ref={this.lastImg}> content repeats the last item content and <li ref={this.firstImg}> repeats the first item content.
+If you wat to put the content as first or last slider item, make sure that ```<li  ref={this.lastImg}>``` content repeats the last item content and ```<li ref={this.firstImg}>``` repeats the first item content.
             
