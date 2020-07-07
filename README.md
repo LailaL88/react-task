@@ -9,9 +9,9 @@ In the Test-slider-react folder you can make changes to the project.
 To put a different content into the slider in app.css remove the background images then in app.js render method add the needed content into the div.slider divs.
 
 
-#Usage
+# Usage
 Put the desired content into div.slider li
-```react
+```html
 <div class="slider" id="sliderid" ref={this.slider} onTouchStart = {this.Swipe}>
                 <li  ref={this.lastImg}>
                 <img src="https://github.com/LailaL88/test-task/blob/master/pic7.jpg?raw=true" alt=""></img>
@@ -40,7 +40,6 @@ Put the desired content into div.slider li
                 <li ref={this.firstImg}>
                 <img src="https://github.com/LailaL88/test-task/blob/master/pic1.jpg?raw=true" alt=""></img>
                 </li>
-            </div>
-            ```
+            </div>```
             If you wat to put the content as first or last slider item, make sure that <li  ref={this.lastImg}> content repeats the last item content and <li ref={this.firstImg}> repeats the first item content.
             
