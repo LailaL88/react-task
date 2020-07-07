@@ -56,4 +56,4 @@ If you have more than 7 items add ```<button onClick = {this.GoToSlide(1)}></but
         <button onClick = {this.GoToSlide(7)}></button>
         </nav>
 ```
-            
+to add buttons that navigate to each slide.
